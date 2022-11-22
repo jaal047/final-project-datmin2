@@ -1,0 +1,5 @@
+folder images: berisi seluruh data gambar
+semua gambar di folder ur_capture (personal folder) nanti copy ke folder image
+
+DILARANG RUN NOTEBOOK MILIK ORANG LAIN, NANTI BISA CONFLICT 
+kalo mau ngambil codingannya, tinggal copas aja.
