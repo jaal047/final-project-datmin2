@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+<folder>images</folder>
+<filename>32f308a7-drowsy.f7c14b91-6f33-11ed-a32f-ac05f5a81f7c.jpg</filename>
+<source>
+<database>MyDatabase</database>
+<annotation>COCO2017</annotation>
+<image>flickr</image>
+<flickrid>NULL</flickrid>
+<annotator>1</annotator>
+</source>
+<owner>
+<flickrid>NULL</flickrid>
+<name>Label Studio</name>
+</owner>
+<size>
+<width>640</width>
+<height>480</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>Drowsy</name>
+<pose>Unspecified</pose>
+<truncated>0</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>150</xmin>
+<ymin>22</ymin>
+<xmax>434</xmax>
+<ymax>380</ymax>
+</bndbox>
+</object>
+</annotation>
