@@ -1,0 +1,10 @@
+1. Gambar yang ada dikumpulkan di folder capture, dan dimasukkan folder yang sesuai (awake atau drowsy) (manual)
+2. Gambar di-crop untuk menghilangkan noise (manual)
+3. Gambar di reshape menjadi 64x64 grayscale (di mnist_converter)
+4. Nilai tiap pixel gambar diubah menjadi dataframe, dengan kolom adalah tiap pixel (memiliki 64x64 kolom dari pixel dan 1 kolom tambahan berisi label) (di mnist_converter)
+5. Tiap gambar dimasukkan kedalam file csv sesuai dengan labelnya (awake dan drwosy di fle terpisah) (di mnist_converter)
+6. Dataframe di-load, dan dimasukkan variabel x dan y, lalu dinormalisasi dengan dibagi 255 (di test_cnn2)
+7.  x dan y di-reshape agar menjadi 3D (di test_cnn2)
+8. Dilakukan augmentasi data untuk menambah variasi data (di test_cnn2)
+9. Data dimasukkan ke CNN (di test_cnn2)
+10. Performa model dihitung menggunakan akurasi, loss, dan kurva ROC-AUC
